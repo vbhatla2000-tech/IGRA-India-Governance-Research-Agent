@@ -1,0 +1,18 @@
+{
+  "project": "IGRA",
+  "version": "1.0",
+  "mode": "development",
+  "scheduler": {
+    "enabled": true,
+    "daily_time": "06:00"
+  },
+  "github": {
+    "enabled": true
+  },
+  "docker": {
+    "enabled": true
+  },
+  "agents": {
+    "auto_start": true
+  }
+}
