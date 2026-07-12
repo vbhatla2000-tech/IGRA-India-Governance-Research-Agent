@@ -1,0 +1,1 @@
+{  "builds": [    { "src": "igra/package.json", "use": "@vercel/next" }  ],  "routes": [    { "src": "/(.*)", "dest": "igra/$1" }  ]} 
