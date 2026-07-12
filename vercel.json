@@ -1,1 +1,16 @@
-{  "builds": [    { "src": "igra/package.json", "use": "@vercel/next" }  ],  "routes": [    { "src": "/(.*)", "dest": "igra/$1" }  ]} 
+{
+  "builds": [
+    { "src": "igra/package.json", "use": "@vercel/next" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "igra/$1" }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://igra-india-governance-research-agent.vercel.app/$1",
+      "permanent": true
+    }
+  ]
+}
+
